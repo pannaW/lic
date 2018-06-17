@@ -1,0 +1,62 @@
+// Options button
+.btn{
+    color:$color__grey--light;
+    padding:0 10px;
+    &:hover, &--menu:hover, &--on{
+        color:darken($color__primary,8);
+        background-color:$color__white--greish;
+    }
+    @media (max-width: 630px){
+        display:none;
+    }
+    &--menu, &--back {
+        color:$color__primary--dark;
+        .btn__desc {
+            color:$color__primary--dark;
+        }
+    }
+}
+
+// Options button decription
+.btn__desc {
+    padding-top:5px;
+    display: block;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-transform: uppercase;
+    @extend .s4;
+    letter-spacing: 0.1px;
+    color:$color__grey--middle;
+    &--optional{
+        @media (min-width: 1300px){
+            @include scr-only;
+        }
+    }
+}
+
+// Typical button
+.button {    
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+        
+    color:darken($color__primary--light,15%);
+    border:1px solid darken($color__primary--light,15%);
+    border-radius: 4px;
+    position:relative;
+        
+    @media (min-width: 750px){
+        font-weight: 300;
+    }
+    
+    &:hover {
+        background-color: $color__primary;
+        color:#fff;
+        transition:all .4s;
+    }
+    &:focus {
+        background-color:$color__primary;
+        color:#fff;
+        font-weight: 600;
+    }
+}

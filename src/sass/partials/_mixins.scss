@@ -1,0 +1,12 @@
+@mixin scr-only{
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+}
+
+@mixin clearfix{
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}

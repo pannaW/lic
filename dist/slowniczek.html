@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Słowniczek | Zdobyć Mont Blanc - przewodnik początkującego alpinisty.</title>
+
+    <meta name="theme-color" content="#88d301">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <meta name="description" content="Dowiedz się jakie umiejętności i sprzęt potrzebny jest, aby wejść na Mont Blanc. W przewodniku znajdziesz wiele informacji, zarówno teoretycznych, jak i praktycznych, o szczycie Mont Blanc.">
+
+
+    <!--    FontAwesome-->
+    <script>
+        FontAwesomeConfig = {
+            searchPseudoElements: true
+        };
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,900" rel="stylesheet">
+    
+     <!-- Custom styles-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="site">
+    <div class="l-wrapper">
+        <!-- Sidebar    -->
+        <div id="sidebar" class="site__sidebar" tabindex="0">
+            <div class="l-site__sidebar">
+                <!-- Sidebar header -->
+                <header class="site__header l-site__header">
+                    <a href="index.html"><span class="header__title t3"> <img src="images/logo.svg" class="header__logo" alt=" " aria-hidden="true"> Zdobyć Mont Blanc</span>
+                <p class="header__subtitle s3">przewodnik początkującego alpinisty</p></a>
+                    <a href="#article" class="l-site__skiplink site__skiplink"><span>Przejdź do&nbsp;głównej treści</span></a>
+                </header>
+                <!-- .sidebar header -->
+
+                <div class="separator"></div>
+                <!-- Sidebar search -->
+                <div class="l-wrap">
+                   <form class="site__search" role="search">
+                        <label for="search" class="u-sr-only"> Wyszukaj na stronie </label>
+                        <i class="fas fa-search search__icon search__icon--search" aria-hidden="true"></i>
+                        <input id="search" placeholder="wyszukaj na stronie" type="text" class="search__input jsSearch">
+                        <button class="search__button jsClearSearch">
+                      <i class="search__icon search__icon--close" aria-label="Wyczyść">&times;</i>
+                  </button>
+                    </form>
+                </div>
+                <!-- .Sidebar search -->
+
+                <!-- Sidebar inner -->
+                <div class="l-site__inner">
+                    <!-- Sidebar navigation -->
+                    <div class="l-wrap">
+                        <nav class="site__navigation" id="nav">
+                            <ul class="l-list list">
+                                <li class="list__title">Wstęp
+                                    <ul class="list__items l-list__items">
+                                        <li class="list__item"><a href="o-przewodniku.html">O przewodniku </a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__title">Szczyt Mt. Blanc
+                                    <ol class="list__items l-list__items list__items--ol l-list__items--ol">
+                                        <li class="list__item"><a href="informacje-ogolne.html">Informacje ogólne</a></li>
+                                        <li class="list__item"><a href="historia-zdobywania.html">Historia zdobywania</a></li>
+                                        <li class="list__item"><a href="ciekawostki.html">Ciekawostki</a></li>
+                                    </ol>
+                                </li>
+                                <li class="list__title">Jak zdobyć szczyt
+                                    <ol start="4" class="list__items l-list__items list__items--ol l-list__items--ol">
+                                        <li class="list__item"><a href="przygotowanie.html">Przygotowanie</a></li>
+                                        <li class="list__item"><a href="zagrozenia.html">Zagrożenia</a></li>
+                                        <li class="list__item"><a href="choroba-wysokosciowa.html">Choroba wysokościowa </a></li>
+                                        <li class="list__item"><a href="trasy-na-szczyt.html">Trasy na szczyt</a></li>
+                                        <li class="list__item"><a href="ekwipunek.html">Ekwipunek</a></li>
+                                        <li class="list__item"><a href="transport.html">Transport</a></li>
+                                        <li class="list__item"><a href="noclegi.html">Noclegi</a></li>
+                                    </ol>
+                                </li>
+                                <li class="list__title">Dodatki
+                                    <ul class="list__items l-list__items l-list__items--last">
+                                        <li class="list__item"><a href="przydatne-zwroty.html">Przydatne zwroty</a></li>
+                                        <li class="list__item"><a class="active" href="slowniczek.html">Słowniczek</a><span class="sr-only">(aktywny)</span></li>
+                                        <li class="list__item"><a href="bibliografia.html">Bibliografia</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- .sidebar navigation -->
+
+                    <div class="separator"></div>
+
+                    <!-- Sidebar footer -->
+                    <div class="l-wrap l-wrap--footer l-footer">
+                        <footer class="site__footer footer">
+                            <div class="l-footer__button">
+                                <a href="quiz-start.html" class="button button--sidebar">Quiz </a>
+                            </div>
+
+
+                            <p class="footer__text">
+
+                                Copyright <time datetime="2018">2018</time> © <a href="mailto:wiktoria.lucarz326@gmail.com"> Wiktoria Łucarz  </a> | dr&nbsp;Piotr Śliwiński 
+
+                            </p>
+
+                        </footer>
+                    </div>
+                    <!-- .sidebar footer -->
+                </div>
+            </div>
+        </div>
+        <!-- .sidebar    -->
+
+        <!-- Site body    -->
+        <div class="site__body">
+            <div class="l-body__inner">
+                <!-- Site options    -->
+                <div class="site__options">
+                    <button class="l-btn l-btn--pull-left btn--menu jsToggleMenu" aria-expanded="true" aria-controls="sidebar" aria-label="Zamknij Menu">
+                           
+                            <svg width="22" height="17" viewBox="0 0 22 17" class="fill" aria-hidden="true" fill="#acd465">
+                               <rect width="22" height="3"></rect>
+                               <rect width="22" height="3" y="7"></rect>
+                               <rect width="22" height="3" y="14"></rect>
+                            </svg>
+    
+                            <span class="btn__desc">Menu</span>   
+                        </button>
+
+                    <button class="l-btn l-btn--pull-right btn jsToggleFontSize" aria-expanded="true" aria-label="Powiększ czcionkę">
+                            <i class="btn__icon fas fa-font" aria-hidden="true"></i>
+                            <span class="btn__desc"></span>
+                        </button>
+
+                    <button class="l-btn l-btn--pull-right btn jsToggleTheme" aria-expanded="true" aria-label="Tryb nocny">
+                            <i class="btn__icon fas fa-adjust" aria-hidden="true"></i>
+                            <span class="btn__desc"></span>   
+                        </button>
+                </div>
+                <!-- .site options    -->
+                <main class="site__main">
+                    <article id="article" class="article">
+                        <header class="article__header l-article__header">
+                            <h1 class="t1">S<span>łownicze</span>k </h1>
+                        </header>
+                        <div class="article__date l-article__date">
+                            <time datetime="2018-05-03"> <span class="date__first"> 3 </span> maja 2018</time>
+                        </div>
+                        <div class="l-article__text">
+                            <dl>
+
+                                <dt>Alpejska skala trudności GHM </dt>
+                                <dd>
+                                    <p>Skala GHM (Groupe de&nbsp;Haute Montagne) służy do&nbsp;określenia dróg wysokogórskich i&nbsp;lodowych, biorąc pod uwagę czynniki tj. długość drogi, nachylenie, wysokość, ekspozycja, trudność powrotu, obiektywne zagrożenia. Skala ma 7 stpni, reprezentowane przez francuskie przymiotniki. W&nbsp;celu dokładniejszego określenia, do&nbsp;liter mogą zostać dodane symbole + / - lub skróty “sup” (superior - wyższy) / “inf” (inferior - niższy).
+                                    </p>
+                                    <p>
+                                        F: Facile (łatwo). <br> PD: Peu difficle (dość trudno).<br> AD: Assez difficle (trudno).<br> D: Difficle (bardzo trudno).<br> TD: Tres difficle (nadzwyczaj trudno).<br> ED: Extrement difficle (skrajnie trudno).<br> ABO: Abominable (straszliwie)
+                                    </p>
+                                </dd>
+
+                                <dt> Asekuracja lotna </dt>
+                                <dd>
+                                    <p>
+                                        Polega na&nbsp;związaniu się wszystkich członków zespołu liną ze&nbsp;sobą. Optymalnie zespoły powinny liczyć od&nbsp;3&nbsp;-&nbsp;6&nbsp;osób.
+                                    </p>
+                                    <p>
+                                        Asekuracja lotna wykorzystywana jest przede wszystkim przy&nbsp;poruszaniu się&nbsp;po&nbsp;lodowcach (w&nbsp;niektórych sytuacjach doświadczeni wspinacze wykorzystują asekurację lotną również w&nbsp;innym terenie).
+                                    </p>
+                                    <p>
+                                        Należy pamiętać, że&nbsp;samo związanie się&nbsp;nie&nbsp;zabezpieczy nas&nbsp;przed&nbsp;wypadkiem. Aby&nbsp;zapewnić sobie bezpieczeństwo, musimy znać techniki wspinaczkowe związane z&nbsp;poruszaniem się&nbsp;po&nbsp;lodowcu (nauczysz się&nbsp;ich&nbsp;na&nbsp;kursie turystyki zimowej).
+                                    </p>
+                                </dd>
+
+                                <dt>Ekspozycja</dt>
+                                <dd>
+                                    <p>
+                                        Wystawienie na&nbsp;stromiznę, przepaść, często wzbudzające lęk, a&nbsp;nawet blokadę psychiczną.
+                                    </p>
+                                </dd>
+
+                                <dt> Grań </dt>
+                                <dd>
+                                    <p>
+                                        Grzbiet górski, zazwyczaj stromy i&nbsp;skalisty. Często łączy sąsiadujące szczyty.
+                                    </p>
+                                </dd>
+
+                                <dt> Kuluar (franc. Couloir) </dt>
+                                <dd>
+                                    <p>
+                                        Wklęsła, rynnowata część w&nbsp;stoku góry lub w&nbsp;lodowcu. Zawsze znajduje się w&nbsp;linii spadku góry, przez co&nbsp;schodzą tamtędy często niebezpieczne, kamienne bądź śnieżne lawiny.
+                                    </p>
+                                </dd>
+
+                                <dt>Przełęcz</dt>
+                                <dd>
+                                    <p>
+                                        Przypominające siodło obniżenie terenu, znajdujące się najczęściej pomiędzy sąsiadującymi szczytami górskimi.
+                                    </p>
+                                </dd>
+
+                                <dt>Seraki</dt>
+                                <dd>
+                                    <p>
+                                        Seraki to duże, występujące na lodowcach bloki śniegowo-lodowe wiszące nad&nbsp;półkami, które w&nbsp;wyniku działania słońca lub&nbsp;ruchów lodowca mogą oderwać się i&nbsp;przygnieść wspinaczy.
+                                    </p>
+                                </dd>
+                    
+                                <dt>Styl alpejski</dt>
+                                <dd>
+                                    <p>
+                                        Rodzaj wspinaczki wysokogórskiej, w&nbsp;trakcie której nosimy cały sprzęt (w tym namiot) ze&nbsp;sobą, nie zakładając stałych obozów pośrednich.
+                                    </p>
+                                    <p>
+                                        Jest to&nbsp;sposób zdobywania szczytów odwrotny do stylu oblężniczego. Wspinając się stylem oblężniczym, zakładamy po drodze na&nbsp;szczyt stałe obozy, stanowiące &bdquo;bazę wypadową&rdquo; do wyższych obozów. Przechowujemy w&nbsp;nich sprzęt i&nbsp;prowiant.
+                                    </p>
+                                    <p>
+                                        Wspinając się w&nbsp;stylu alpejskim, zabieramy tylko tyle, ile jesteśmy w stanie udźwignąć, toteż często wspinaczka ta nazywana jest też stylem &bdquo;na lekko&rdquo;.
+                                    </p>
+                                </dd>
+                                
+                                <dt> Szczelina lodowcowa </dt>
+                                <dd>
+                                    <p>
+                                        Lodowce pozostają w&nbsp;ciągłym ruchu, przez&nbsp;co&nbsp;powstają w&nbsp;nich pęknięcia, zwane szczelinami lodowymi.
+                                    </p>
+                                    <p>
+                                        Uskoki mogą być głębokie nawet na&nbsp;kilkaset metrów, a&nbsp;co&nbsp;gorsza, przykryte warstwą śniegu najczęściej są&nbsp;niewidoczne, dlatego też, stanowią ogromne zagrożenie dla&nbsp;pokonujących lodowce alpinistów.
+                                    </p>
+                                    <p>
+                                        Aby ograniczyć ryzyko wpadnięcia do szczeliny, alpiniści poruszają się po&nbsp;lodowcach związani liną w&nbsp;zespołach liczących 2 - 6 wspinaczy.
+                                    </p>
+
+
+                                </dd>
+
+
+                                <dt>Trawers</dt>
+                                <dd>
+                                    <p>
+                                        Odcinek drogi wspinaczkowej (lub cała droga) prowadzący w&nbsp;poziomie, w&nbsp;poprzek zbocza lub&nbsp;ściany, zamiast piąć się w&nbsp;górę.
+                                    </p>
+                                </dd>
+                            </dl>
+
+
+
+                        </div>
+                    </article>
+
+
+                    <footer class="l-article__footer article__footer">
+                        <p>Ostatnia aktualizacja: <time datetime="2018-05-03">  3 maja 2018 </time></p>
+                    </footer>
+
+                </main>
+            </div>
+            <div class="site__nav">
+                <a href="przydatne-zwroty.html" class="btn arrow arrow--prev" rel="prev">
+                    <i class="fas fa-chevron-left fa-2x" aria-hidden="true"></i>
+                <span class="btn__desc btn__desc--optional">Poprzedni</span>
+                </a>
+                <a href="bibliografia.html" class="btn arrow arrow--next" rel="next">
+                    <i class="fas fa-chevron-right fa-2x" aria-hidden="true"></i>
+                <span class="btn__desc btn__desc--optional">Następny</span>
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+       <script src="./guide.bundle.js"></script>
+      
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+[
+	{
+		"win":true,
+		"message":"Brawo! Jesteś gotowy/a!",
+		"description":"Wygląda na to, że wiesz już naprawdę dużo o&nbsp;tym, jak bezpiecznie zdobyć szczyt Mont Blanc. To świetnie! Pamiętaj jednak - o ile jeszcze tego nie zrobiłe/aś - aby&nbsp;wiedzę teoretyczną poprzeć wiedzą praktyczną zdobytą na&nbsp;kursie&nbsp;pod okiem instruktora!"
+	},
+	{
+		"win":false,
+		"message": "Niestety! Nie jesteś jeszcze gotowy/a.",
+		"description": "Wygląda na&nbsp;to, że&nbsp;musisz się jeszcze podszkolić. Wróć do&nbsp;przewodnika, wybierz się na&nbsp;kurs zimowej turystyki wysokogórskiej, a&nbsp;następnie spróbuj jeszcze raz."
+                
+	}
+]

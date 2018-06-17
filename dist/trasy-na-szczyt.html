@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Trasy na szczyt | Zdobyć Mont Blanc - przewodnik początkującego alpinisty.</title>
+
+    <meta name="theme-color" content="#88d301">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <meta name="description" content="Dowiedz się jakie umiejętności i sprzęt potrzebny jest, aby wejść na Mont Blanc. W przewodniku znajdziesz wiele informacji, zarówno teoretycznych, jak i praktycznych, o szczycie Mont Blanc.">
+
+
+    <!--    FontAwesome-->
+    <script>
+        FontAwesomeConfig = {
+            searchPseudoElements: true
+        };
+
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,900" rel="stylesheet">
+
+    <!-- Custom styles-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="site">
+    <div class="l-wrapper">
+        <!-- Sidebar    -->
+        <div id="sidebar" class="site__sidebar" tabindex="0">
+            <div class="l-site__sidebar">
+                <!-- Sidebar header -->
+                <header class="site__header l-site__header">
+                    <a href="index.html"><span class="header__title t3"> <img src="images/logo.svg" class="header__logo" alt=" " aria-hidden="true"> Zdobyć Mont Blanc</span>
+                <p class="header__subtitle s3">przewodnik początkującego alpinisty</p></a>
+                    <a href="#article" class="l-site__skiplink site__skiplink"><span>Przejdź do&nbsp;głównej treści</span></a>
+                </header>
+                <!-- .sidebar header -->
+
+                <div class="separator"></div>
+                <!-- Sidebar search -->
+                <div class="l-wrap">
+                    <form class="site__search" role="search">
+                        <label for="search" class="u-sr-only"> Wyszukaj na stronie </label>
+                        <i class="fas fa-search search__icon search__icon--search" aria-hidden="true"></i>
+                        <input id="search" placeholder="wyszukaj na stronie" type="text" class="search__input jsSearch">
+                        <button class="search__button jsClearSearch">
+                      <i class="search__icon search__icon--close" aria-label="Wyczyść">&times;</i>
+                  </button>
+                    </form>
+                </div>
+                <!-- .Sidebar search -->
+
+                <!-- Sidebar inner -->
+                <div class="l-site__inner">
+                    <!-- Sidebar navigation -->
+                    <div class="l-wrap">
+                        <nav class="site__navigation" id="nav">
+                            <ul class="l-list list">
+                                <li class="list__title">Wstęp
+                                    <ul class="list__items l-list__items">
+                                        <li class="list__item"><a href="o-przewodniku.html">O przewodniku </a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__title">Szczyt Mt. Blanc
+                                    <ol class="list__items l-list__items list__items--ol l-list__items--ol">
+                                        <li class="list__item"><a href="informacje-ogolne.html">Informacje ogólne</a></li>
+                                        <li class="list__item"><a href="historia-zdobywania.html">Historia zdobywania</a></li>
+                                        <li class="list__item"><a href="ciekawostki.html">Ciekawostki</a></li>
+                                    </ol>
+                                </li>
+                                <li class="list__title">Jak zdobyć szczyt
+                                    <ol start="4" class="list__items l-list__items list__items--ol l-list__items--ol">
+                                        <li class="list__item"><a href="przygotowanie.html">Przygotowanie</a></li>
+                                        <li class="list__item"><a href="zagrozenia.html">Zagrożenia</a></li>
+                                        <li class="list__item"><a href="choroba-wysokosciowa.html">Choroba wysokościowa </a></li>
+                                        <li class="list__item"><a class="active" href="trasy-na-szczyt.html">Trasy na szczyt</a><span class="sr-only">(aktywny)</span></li>
+                                        <li class="list__item"><a href="ekwipunek.html">Ekwipunek</a></li>
+                                        <li class="list__item"><a href="transport.html">Transport</a></li>
+                                        <li class="list__item"><a href="noclegi.html">Noclegi</a></li>
+                                    </ol>
+                                </li>
+                                <li class="list__title">Dodatki
+                                    <ul class="list__items l-list__items l-list__items--last">
+                                        <li class="list__item"><a href="przydatne-zwroty.html">Przydatne zwroty</a></li>
+                                        <li class="list__item"><a href="slowniczek.html">Słowniczek</a></li>
+                                        <li class="list__item"><a href="bibliografia.html">Bibliografia</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- .sidebar navigation -->
+
+                    <div class="separator"></div>
+
+                    <!-- Sidebar footer -->
+                    <div class="l-wrap l-wrap--footer l-footer">
+                        <footer class="site__footer footer">
+                            <div class="l-footer__button">
+                                <a href="quiz-start.html" class="button button--sidebar">Quiz </a>
+                            </div>
+
+
+                            <p class="footer__text">
+
+                                Copyright <time datetime="2018">2018</time> © <a href="mailto:wiktoria.lucarz326@gmail.com"> Wiktoria Łucarz  </a> | dr&nbsp;Piotr Śliwiński
+                            </p>
+
+                        </footer>
+                    </div>
+                    <!-- .sidebar footer -->
+                </div>
+            </div>
+        </div>
+        <!-- .sidebar    -->
+
+        <!-- Site body    -->
+        <div class="site__body">
+            <div class="l-body__inner">
+                <!-- Site options    -->
+                <div class="site__options">
+                    <button class="l-btn l-btn--pull-left btn--menu jsToggleMenu" aria-expanded="true" aria-controls="sidebar" aria-label="Zamknij Menu">
+                           
+                            <svg width="22" height="17" viewBox="0 0 22 17" class="fill" aria-hidden="true" fill="#acd465">
+                               <rect width="22" height="3"></rect>
+                               <rect width="22" height="3" y="7"></rect>
+                               <rect width="22" height="3" y="14"></rect>
+                            </svg>
+    
+                            <span class="btn__desc">Menu</span>   
+                        </button>
+
+                    <button class="l-btn l-btn--pull-right btn jsToggleFontSize" aria-expanded="true" aria-label="Powiększ czcionkę">
+                            <i class="btn__icon fas fa-font" aria-hidden="true"></i>
+                            <span class="btn__desc"></span>
+                        </button>
+
+                    <button class="l-btn l-btn--pull-right btn jsToggleTheme" aria-expanded="true" aria-label="Tryb nocny">
+                            <i class="btn__icon fas fa-adjust" aria-hidden="true"></i>
+                            <span class="btn__desc"></span>   
+                        </button>
+                </div>
+                <!-- .site options    -->
+
+                <main class="site__main">
+                    <article id="article" class="article">
+                        <header class="article__header l-article__header">
+                            <h1 class="t1"> T<span>rasy na&nbsp;szczy</span>t </h1>
+                        </header>
+                        <div class="article__date l-article__date">
+                            <time datetime="2018-03-26"> <span class="date__first"> 26 </span> marca 2018</time>
+                        </div>
+                        <div class="l-article__text">
+
+
+                            <p>
+                                Nie wszyscy wiedzą, ale na&nbsp;szczyt Mont Blanc prowadzi aż 7 różnych dróg. W&nbsp;poniższym zestawieniu drogi wymienione są od&nbsp;najłatwiejszej do&nbsp;najtrudniejszej. Schemat opisanych poniżej dróg można znaleźć w broszurze <a href="http://drytooling.com.pl/pliki/poradnik-mont-blanc-petzl.pdf"><i>Zdobyć Mont Blanc. Zadanie dla alpinistów <i title="external link" class="fas fa-external-link-alt"></i></i></a>.
+
+                                <h2 id="1">1. Droga przez Goûter, zwana “drogą normalną”.</h2>
+                                <p><a class="article__term jsOpenModal" data-modal-id="ghm" href="#ghm"> Trudności: PD </a></p>
+                                <p>Jest to&nbsp;najbardziej uczęszczana droga na&nbsp;szczyt, głównie ze&nbsp;względu na&nbsp;reputację technicznie najłatwiejszej oraz niewielkie zagrożenie spadającymi <a href="slowniczek.html#seraki" class="article__term jsOpenModal" data-modal-id="seraki"> serakami </a>, czy&nbsp;wpadnięciem do&nbsp;<a href="slowniczek.html#szczelina-lodowa" class="article__term jsOpenModal" data-modal-id="szczelina-lodowa">szczeliny lodowej</a>. </p>
+
+
+                                <div class="message message--warning">
+                                    <div class="message__heading">
+                                        <h3 class="message__title">
+                                            <span class="message__icon">
+                                        <i class="fa fa-info" aria-hidden="true"></i>
+                                        </span> Uwaga! </h3>
+                                    </div>
+                                    <div class="message__body">
+                                        <p>
+                                            Droga przez Goûter uważana jest za najłatwiejszą, ale nie za bezpieczną! To&nbsp;właśnie na&nbsp;tej drodze musimy przejść przez <a href="ciekawostki.html#rolling-stones"> żleb Goûter </a> - miejsce, w&nbsp;którym każdego roku w&nbsp;drodze na&nbsp;szczyt ginie największa liczba osób ( wskazówki dotyczące zachowania bezpieczeństwa na&nbsp;żlebie w&nbsp;rozdziale <a href="zagrozenia.html"> zagrożenia</a>).
+                                        </p>
+                                        <p>
+                                            Ryzykowny jest też ostatni fragment trasy - szczytowa <a href="slowniczek.html#gran" class="article__term jsOpenModal" data-modal-id="gran">grań</a> Bosses ma szerokość jednej osoby, a&nbsp;po obu stronach wąskiej ścieżki ciągną się kilkusetmetrowe przepaście. Każde potknięcie, choćby spowodowane zahaczeniem raka o&nbsp;nogawkę, może więc zakończyć się tragicznie.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    Droga normalna rozpoczyna się w&nbsp;le Nid d’Aigle (2,372 m). Na&nbsp;tę wysokość możemy dotrzeć ze&nbsp;wsi Les Houches o&nbsp;własnych nogach lub wjechać kolejką - najpierw linową,<a href="ceny-noclegi-transport.html#kolejka-bellevues"> do&nbsp;stacji Bellevues </a> (1,794m), a&nbsp;następnie zębatą <a href="ceny-noclegi-transport.html#tramway-du-mont-blanc"> do&nbsp;końcowej stacji Nid d’Aigle </a>(2,372 m).
+                                </p>
+
+                                <p>Dalszą trasę na&nbsp;szczyt możemy rozłożyć na&nbsp;dwa sposoby.</p>
+                                <h3>Sposób nr. 1:</h3>
+                                <p><b>dzień I:</b> trekking do&nbsp;<a href="ceny-noclegi-transport.html#schronisko-gouter"> schroniska Goûter </a> (3,835 m, robimy 1,450 m w&nbsp;pionie).</p>
+                                <p><b>dzień II:</b> trekking na&nbsp;szczyt (4,810 m, zatem robimy 1,000 m w&nbsp;pionie).</p>
+                                <p>
+                                    Ponieważ jednak od&nbsp;roku 2013 obowiązuje zakaz biwakowania pod schroniskiem Goûter, plan ten należy brać pod uwagę jedynie w&nbsp;przypadku nocowania w&nbsp;schronisku. Nocleg należy zarezerwować ze sporym wyprzedzeniem (więcej na&nbsp;ten temat w&nbsp;rozdziale <a href="noclegi.html"> noclegi </a>).
+                                </p>
+                                <h3>Sposób nr. 2:</h3>
+                                <p><b>dzień I:</b> trekking do&nbsp;<a href="ceny-noclegi-transport.html#schronisko-tete-rousse"> schroniska Tête Rousse </a>(3,167 m, robimy 800&nbsp;m w&nbsp;pionie).</p>
+                                <p><b>dzień II:</b> trekking na&nbsp;szczyt (4,810 m, zatem 1,650&nbsp;m w&nbsp;pionie).</p>
+                                <p>Ten sposób pozwala na&nbsp;przejście żlebem Goûter w&nbsp;godzinach mniejszej intensywności kamiennych lawin (więcej na&nbsp;ten temat w&nbsp;rozdziale <a href="zagrozenia.html">zagrożenia</a>). Zauważ jednak, że&nbsp;w&nbsp;drugim dniu musimy wtedy pokonać znacznie dłuższe podejście. </p>
+
+
+                                <h2>2. Droga 3M, czyli Droga Trzech Gór</h2>
+                                <p><a class="article__term jsOpenModal" data-modal-id="ghm" href="#ghm"> Trudności: PD</a></p>
+                                <p>Droga ta, jak wskazuje nazwa, ciągnie się kolejno przez 3 alpejskie szczyty: Mont Blanc du&nbsp;Tacul (4,248&nbsp;m), Mont Maudit (4,465&nbsp;m) i&nbsp;Mont Blanc (4,810 m). Piękna, lecz uznawana za bardziej wymagającą od&nbsp;drogi normalnej. Poprzecinana jest też gęsto niebezpiecznymi szczelinami lodowcowymi. </p>
+                                <p>Początek to wjazd kolejką linową <a href="ceny-noclegi-transport.html#kolejka-aguille-du-midi"> do&nbsp;stacji Aguille de&nbsp;Midi </a> (3,842 m) i&nbsp;nocleg w&nbsp;schronie Cosmiques, położonym zaledwie 50&nbsp;m powyżej stacji. Na&nbsp;atak szczytowy przeznaczamy jeden dzień. Do&nbsp;pokonania mamy 1250&nbsp;m w&nbsp;pionie, trzeba więc ruszyć wcześnie w&nbsp;nocy. Najpierw, wspinamy się stromym lodowcem na&nbsp;Mont Blanc du Tacul, następnie droga prowadzi kotłem przez kolejny lodowiec i&nbsp;znów stromym zboczem okrążamy z&nbsp;zachodniej strony Mont Maudit. </p>
+                                <p>Cała trasa z&nbsp;Cosmiques na&nbsp;szczyt w&nbsp;jedną stronę powinna zająć nam około 8 - 9&nbsp;godzin. Zejść możemy drogą przez Goûter lub przez Grands Mulets (poniżej).</p>
+
+                                <div class="message">
+                                    <div class="message__heading">
+                                        <h3 class="message__title">
+                                            <span class="message__icon">
+                                        <i class="fa fa-info" aria-hidden="true"></i>
+                                        </span> Plan trasy </h3>
+                                    </div>
+                                    <div class="message__body">
+                                        <p>
+                                            <b>dzień I:</b> kolejką na&nbsp;Aguille de&nbsp;Midi (3,842 m), nocleg w&nbsp;schronie Cosmiques (+50m&nbsp;w&nbsp; pionie).
+                                        </p>
+                                        <p>
+                                            <b>dzień II:</b> trekking na&nbsp;szczyt.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <h2>3. Grands Mulets</h2>
+                                <p><a class="article__term jsOpenModal" data-modal-id="ghm" href="#ghm"> Trudności: PD+</a></p>
+                                <p>
+                                    Jest to historyczna droga, którą <a href="historia-zdobywania.html#zdobycie-szczytu"> w&nbsp;1786 roku jako pierwsi weszli na&nbsp;szczyt Paccard i&nbsp;Balmat</a>. Ze względu na&nbsp;zagrożenie spadającymi serakami z&nbsp;Petit Plateau, pokonywanie jej pieszo nie jest zalecane. Droga nadaje się jednak do&nbsp;narciarskich podejść oraz jako droga do&nbsp;zejścia.
+                                </p>
+                                <p>
+                                    Wędrówkę można rozpocząć ze schroniska Plan de&nbsp;l’Aiguille (2,207 m) lub pośredniej stacji kolejki Aiguille du Midi. Następnie droga biegnie do&nbsp;schroniska Grand Mulets (3,051 m), do&nbsp;którego mamy 750&nbsp;m w&nbsp;pionie. Tam spędzamy pierwszą noc. Kolejnego dnia do&nbsp;pokonania mamy aż 1800 &nbsp;m w&nbsp;linii pionowej. Droga łączy się z&nbsp;drogą normalną poniżej schronu Vallot.
+                                </p>
+
+                                <div class="message">
+                                    <div class="message__heading">
+                                        <h3 class="message__title">
+                                            <span class="message__icon">
+                                        <i class="fa fa-info" aria-hidden="true"></i>
+                                        </span> Plan trasy </h3>
+                                    </div>
+                                    <div class="message__body">
+                                        <p>
+                                            <b>dzień I:</b> trekking do&nbsp;Grand Mulets (3,051&nbsp;m; mamy 750&nbsp;m w&nbsp;pionie).
+                                        </p>
+                                        <p>
+                                            <b>dzień II:</b> trekking do&nbsp;szczytu (4,810&nbsp;m, zatem 1800&nbsp;m w&nbsp;pionie). Droga łączy się z&nbsp;drogą Goûter poniżej schronu Vallot.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+
+                                <h2>4. Tradycyjna droga Włoska, zwana również Aiguilles Grises</h2>
+                                <p><a class="article__term jsOpenModal" data-modal-id="ghm" href="#ghm"> Trudności: PD+</a></p>
+                                <p>Droga normalna od&nbsp;włoskiej strony masywu Mont Blanc. Zdecydowanie mniej uczęszczana, ale i&nbsp;trudniejsza. Przeznaczona dla doświadczonych, samodzielnych wspinaczy. Tu również występowanie szczelin jest znacznie większe.</p>
+                                <p>Start z&nbsp;włoskiej miejscowości Chalets du Miage w&nbsp;dolinie Veni. Dalej kierujemy się w&nbsp;stronę schroniska Gonella (3,017 m), w&nbsp;którym spędzimy noc. Następnego dnia przez lodowiec Dome a&nbsp;dalej przez przełęcz Col de&nbsp;Aiguilles Grises (3,809 m) wspinamy się w&nbsp;kierunku szczytu Dome du Goûter. Jeszcze zanim do&nbsp;niego docieramy, droga łączy się z&nbsp;drogą normalną przez Goûter. Stamtąd, oczywiście, udajemy się na&nbsp;szczyt. </p>
+
+                                <div class="message">
+                                    <div class="message__heading">
+                                        <h3 class="message__title">
+                                            <span class="message__icon">
+                                        <i class="fa fa-info" aria-hidden="true"></i>
+                                        </span> Plan trasy </h3>
+                                    </div>
+                                    <div class="message__body">
+                                        <p>
+                                            <b>dzień I:</b> trekking do&nbsp;schroniska Gonnela (3,017 m).
+                                        </p>
+                                        <p>
+                                            <b>dzień II:</b> trekking na&nbsp;szczyt (4,810 m, czyli 1,800&nbsp;m w&nbsp;pionie).
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <h2>5. Trawers Miage, Bionnassay, Mont Blanc</h2>
+                                <p><a class="article__term jsOpenModal" data-modal-id="ghm" href="#ghm"> Trudności: AD</a></p>
+                                <p>Długa, niebezpieczna droga, zdecydowanie nie dla początkujących wspinaczy. Na&nbsp;szczyt prowadzą bardzo przepaściste granie. Na&nbsp;wejście na&nbsp;szczyt w&nbsp;tym przypadku potrzeba co najmniej 3 dni.</p>
+
+                                <h2>6. Ostroga Tournette</h2>
+                                <p><a class="article__term jsOpenModal" data-modal-id="ghm" href="#ghm"> Trudności: AD</a></p>
+                                <p>Poważna, mocno <a href="slowniczek.html#ekspozycja" class="article__term jsOpenModal" data-modal-id="ekspozycja">eksponowana </a> wspinaczka. Wymaga umiejętności zakładania własnej asekuracji. Droga ciągnie się po stronie włoskiej. Przejście szacowane jest na&nbsp;2 dni.</p>
+
+
+                                <h2>7. Grań Innominat</h2>
+                                <p><a class="article__term jsOpenModal" data-modal-id="ghm" href="#ghm"> Trudności : D+ </a></p>
+                                <p>Kolejna trudna droga po stronie włoskiej ze skomplikowanym przebiegiem. Szacunkowy czas przejścia to 3 dni. </p>
+
+
+                        </div>
+                    </article>
+
+
+                    <footer class="l-article__footer article__footer">
+                        <p>Ostatnia aktualizacja: <time datetime="2018-03-26">  26 marca 2018 </time></p>
+                    </footer>
+
+                </main>
+            </div>
+            <div class="site__nav">
+                <a href="zagrozenia.html" class="btn arrow arrow--prev" rel="prev">
+                    <i class="fas fa-chevron-left fa-2x" aria-hidden="true"></i>
+                <span class="btn__desc btn__desc--optional">Poprzedni</span>
+                </a>
+                <a href="ekwipunek.html" class="btn arrow arrow--next" rel="next">
+                    <i class="fas fa-chevron-right fa-2x" aria-hidden="true"></i>
+                <span class="btn__desc btn__desc--optional">Następny</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal" id="ghm" tabindex="0" role="dialog">
+        <div class="modal__content">
+            <h2 class="modal__title"> Alpejska skala trudności GHM </h2>
+            <p>Skala GHM (Groupe de&nbsp;Haute Montagne) służy do&nbsp;określenia dróg wysokogórskich i&nbsp;lodowych, biorąc pod uwagę czynniki tj. długość drogi, nachylenie, wysokość, ekspozycja, trudność powrotu, obiektywne zagrożenia. Skala ma 7 stpni, reprezentowane przez francuskie przymiotniki. w&nbsp;celu dokładniejszego określenia do&nbsp;liter mogą zostać dodane symbole + / - lub skróty “sup” (superior - wyższy) / “inf” (inferior - niższy).</p>
+            <p>
+                F: Facile (łatwo). <br> PD: Peu difficle (dość trudno).<br> AD: Assez difficle (trudno).<br> D: Difficle (bardzo trudno).<br> TD: Tres difficle (nadzwyczaj trudno).<br> ED: Extrement difficle (skrajnie trudno).<br> ABO: Abominable (straszliwie)
+            </p>
+            <button class="modal__close jsCloseModal">
+      <span class="btn__desc">Zamknij</span>
+    </button>
+            <!-- .modal__close -->
+        </div>
+        <!-- .modal__content -->
+    </div>
+    <!-- .modal -->
+
+    <div class="modal" id="ekspozycja" tabindex="0" role="dialog">
+        <div class="modal__content">
+            <h2 class="modal__title"> Ekspozycja </h2>
+            <p>
+                Wystawienie na stromiznę, przepaść, często wzbudzające lęk a nawet blokadę psychiczną.
+            </p>
+            <button class="modal__close jsCloseModal">
+      <span class="btn__desc">Zamknij</span>
+    </button>
+            <!-- .modal__close -->
+        </div>
+        <!-- .modal__content -->
+    </div>
+    <!-- .modal -->
+
+    <div class="modal" id="seraki" tabindex="0" role="dialog">
+        <div class="modal__content">
+            <h2 class="modal__title"> Seraki </h2>
+            <p>
+                Seraki to duże,występujące na lodowcach bloki śniegowo-lodowe wiszące nad półkami, które w wyniku działania słońca lub ruchów lodowca mogą oderwać się i przygnieść wspinaczy.
+            </p>
+            <button class="modal__close jsCloseModal">
+      <span class="btn__desc">Zamknij</span>
+    </button>
+            <!-- .modal__close -->
+        </div>
+        <!-- .modal__content -->
+    </div>
+    <!-- .modal -->
+
+    <div class="modal" id="szczelina-lodowa" tabindex="0" role="dialog">
+        <div class="modal__content">
+            <h2 class="modal__title"> Szczelina lodowa </h2>
+            <p>
+                Lodowce pozostają w&nbsp;ciągłym ruchu, przez&nbsp;co&nbsp;powstają w&nbsp;nich pęknięcia, zwane szczelinami lodowymi.
+            </p>
+
+            <button class="modal__close jsCloseModal">
+      <span class="btn__desc">Zamknij</span>
+    </button>
+            <!-- .modal__close -->
+        </div>
+        <!-- .modal__content -->
+    </div>
+    <!-- .modal -->
+
+    <div class="modal" id="gran" tabindex="0" role="dialog">
+        <div class="modal__content">
+            <h2 class="modal__title"> Grań </h2>
+            <p>
+                Grzbiet górski, zazwyczaj stromy i skalisty. Często łączy sąsiadujące szczyty.
+            </p>
+
+            <button class="modal__close jsCloseModal">
+      <span class="btn__desc">Zamknij</span>
+    </button>
+            <!-- .modal__close -->
+        </div>
+        <!-- .modal__content -->
+    </div>
+    <!-- .modal -->
+
+    <script src="./guide.bundle.js"></script>
+
+
+</body>
+
+</html>

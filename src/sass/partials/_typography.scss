@@ -1,0 +1,29 @@
+@function em($px, $base: $base__font-size){
+    @return ($px/$base)*1em;
+}
+
+// article h1
+
+.t1{ font-size:2.4em;
+    @media (min-width: 930px){font-size:4em;}
+}
+// article h2
+.t2{font-size: 1.7em;}
+
+// article h3
+.t3{font-size: 1.35em;}
+
+// logo h1, article h4
+.t4{font-size: 1.15em;}
+
+// article paragrahs
+.s1{font-size: 1.2em;}
+
+// navigation list items
+.s2{font-size: 1em;}
+
+//logo h2
+.s3{font-size: .80em;}
+
+// buttons desc
+.s4{font-size: .6em}

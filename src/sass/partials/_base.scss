@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    &:hover{
+        transition:color .8s ease-out;
+    }
+}
+
+body {
+    font-family:'Lato','Arial', sans-serif;
+	font-size: $base__font-size;
+    background-color: $color__white--whitish;
+    border-top: $height__body-bdr solid $color__primary--light;
+    color:$color__grey--dark;
+}
+
+p { font-weight: 300; }
+
+
+h2,h3,h4,h5,h6{ font-weight: 600;}
+h2 { @extend .t2;}
+h3 { @extend .t3;}
+h4 { @extend .t4;}
+h5, h6 { @extend .s1;}
+
+b {font-weight: 600;
+    word-break: normal;}
+i {font-style: italic;}
+a {color: $color__primary--dark;}
+a:hover{ color:darken($color__primary,8);}
+abbr { cursor: help;}
+
+ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.hidden {display: none; }
+
+.separator{
+    height: 1px;
+    margin: 1px 10px;
+    overflow: hidden;
+    background:$color__primary--light;
+    opacity:.4;
+}
+
+
+.dark-theme{       
+    .site__body, .search__input { background-color:$color__blue--dark; color:#fff;}
+    .site__sidebar { background-color:lighten($color__blue--dark,1); }
+    .quiz__answer label:hover {color:#fff;}
+    .site__main, .site__sidebar, .quiz__answer, .result { 
+        color: $color__white--greish;         
+        .header__title, .header__subtitle { color:#fff;}
+        .footer__text,.footer__btn { color: #fff;}
+        .active {color:$color__grey--light};
+        a { color:$color__primary;}
+        .message__body,.article table {color:$color__grey--dark; }
+        .message--warning a { 
+            color:indianred;
+            &:focus{
+                color:#fff;
+            }
+        }
+    }
+    .btn{
+        &:hover, &--menu:hover, &--on {
+            background-color:darken($color__blue--dark,1);   
+        }
+    }
+    .button:hover {color:#fff;}
+}
+
+.big-font { font-size: 17px; }

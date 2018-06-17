@@ -1,0 +1,87 @@
+[
+    {
+        "text": "Na ABC lawinowe składa się <span class='blanc'> &shy;</span>.",
+        "choices": ["walkie-talkie, wysokościomierz, plecak lawinowy",
+               "sonda, łopatka, detektor lawinowy",
+               "detektor lawinowy, sonda, wysokościomierz"],
+        "correctAnswer": "1"
+        },
+    {
+        "text": "Zbocza nachylone pod kątem <span class='blanc'> &shy;</span> są najbardziej narażone na schodzenie lawin.",
+        "choices": ["30 - 45 stopni",
+               "45 - 60 stopni",
+               "> 60 stopni"],
+        "correctAnswer": "1"
+        },
+    {
+        "text": "Rynnowata, wklęsła część zbocza to <span class='blanc'> &shy;</span>  .",
+        "choices": ["kuluar",
+               "przełęcz",
+               "grań"],
+        "correctAnswer": "0"
+        },
+    {
+        "text": "W asekuracji lotnej <span class='blanc'> &shy;</span>.",
+        "choices": ["jeden ze wspinaczy pnie się w górę, aż dojdzie do stanowiska, partner asekuruje go w tym czasie", "wspinacze trzymają się liny poręczowej podczas pokonywania trudniejszych odcinków",
+               "wspinacze (optymalnie 3 - 6 osób) powiązani liną poruszają się jednocześnie"],
+        "correctAnswer": "2"
+        },
+    {
+        "text": "AMS to <span class='blanc'> &shy;</span>.",
+        "choices": ["rodzaj detektora lawinowego",
+               "technika reanimacji nieprzytomnego partnera",
+               "postać choroby wysokościowej"],
+        "correctAnswer": "2"
+        },
+    {
+        "text": "Jest <span class='blanc'> &shy;</span> stopni zagrożenia lawinowego.",
+        "choices": ["3",
+               "4",
+               "5"],
+        "correctAnswer": "2"
+        },
+    {
+        "text": "Prusikowanie to <span class='blanc'> &shy;</span>.",
+        "choices": ["technika wyciągania partnera ze szczeliny lodowej",
+               "przechodzenie przez ścianę w linii poziomej, zamiast piąć się w górę",
+               "technika podchodzenia na linie"],
+        "correctAnswer": "2"
+        },
+    {
+        "text": "Seraki to <span class='blanc'> &shy;</span>.",
+        "choices": ["głębokie uskoki powstające w lodowcu",
+               "inaczej jamy śnieżne",
+                "występujące na lodowcach bloki śniegowo-lodowe wiszące nad półkami"],
+        "correctAnswer": "2"
+        },
+    {
+        "text": "Aby wezwać pomoc na Mont Blanc dzwonimy pod <span class='blanc'> &shy;</span>  .",
+        "choices": ["118",
+               "116",
+                "112"
+              ],
+        "correctAnswer": "2"
+        },
+    {
+        "text": "Zakaz biwakowania obowiązuje w okolicy <span class='blanc'> &shy;</span>.",
+        "choices": ["schroniska Tête Rousse",
+                "schroniska Goûter",
+                "schroniska forestière des Rognes"],
+        "correctAnswer": "1"
+        },
+    {
+        "text": "W drodze na Mont Blanc na kamieniste lawiny narażeni jesteśmy na drodze <span class='blanc'> &shy;</span> .",
+        "choices": ["3M",
+                "przez  Goûter",
+                "włoskiej"],
+        "correctAnswer": "1"
+        },
+    {
+        "text": "<span class='blanc'> &shy;</span> to objawy wysokogórskiego obrzęku mózgu.",
+        "choices": ["otępienie, dezorientacja, senność, problemy z&nbsp;orientacją i&nbsp;koordynacją ruchu",
+                "bóle głowy, wymioty, brak apetytu, zawroty głowy, osłabienie",
+                "duszność w fazie spoczynku, sine usta, język i&nbsp;paznokcie, szybki oddech, uciążliwy kaszel"
+                ],
+        "correctAnswer": "0"
+        }
+    ]

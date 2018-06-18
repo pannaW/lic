@@ -16,8 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	let touchendX = 0;
     
 	function clickEvent(elem){
-        	config[elem.configParam] = config[elem.configParam] === 'true' ? 'false' : 'true';
-		elem.toggle(config,site);
+		config[elem.configParam] = config[elem.configParam] === 'true' ? 'false' : 'true';
 	}
     
 	function swipeEvent(elem){
@@ -32,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
 	function handleEvent(callback,elem){
 		callback(elem);
+		elem.toggle(config,site);
 		localStorage.setItem('app_config', JSON.stringify(config));
 	}
     

@@ -25,8 +25,7 @@ module.exports = {
 	},
 	output: {
 		path: `${__dirname}/dist/`,
-		filename: '[name].bundle.js',
-		publicPath: '/dist'
+		filename: '[name].bundle.js'
 	},
 	watch: true,
 	mode: 'development',
@@ -71,21 +70,10 @@ module.exports = {
 					{
 						loader: 'file-loader',
 						options: {
-							outputPath: 'images/'
+							outputPath: '../images/'
 						}
 					}
 				]
-			},
-			{
-				test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-				use: [{
-					loader: 'file-loader',
-					options: {
-						name: '[name].[ext]',
-						outputPath: 'fonts/',
-						publicPath : 'dist/'
-					}
-				}]
 			}
 		]
 	},

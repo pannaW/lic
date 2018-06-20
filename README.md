@@ -1,7 +1,7 @@
 # Zdobyć Mont Blanc - przewodnik początkującego alpinisty
 english version: How to climb Mont Blanc - a beginner's guide to mountaineering
 
-## Autor
+## Author
 Wiktoria Łucarz
 
 ## Installation 

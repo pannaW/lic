@@ -70,8 +70,7 @@ module.exports = {
 					{
 						loader: 'file-loader',
 						options: {
-							outputPath: './images/',
-                            publicPath: '/dist/images/'
+							outputPath: './images/'
 						}
 					}
 				]

@@ -2,38 +2,27 @@
 english version: How to safely climb Mont Blanc - a beginner's guide to mountaineering
 
 ## Autor
-Wiktoria Łucarz, pod kierunkiem dr. Piotra Śliwińskiego
+Wiktoria Łucarz
 
-## Instalacja na serwerze
+##Installation 
 
-Rozpakuj pliki na serwerze
-```
-unzip lic.zip
-```
+###Developement
 
-Stwórz folder public_html, jeśli nie istnieje
+Install modules
 ```
-mkdir public_html
+npm i
 ```
 
-Stwórz dowiązanie symboliczne do folderu dist w folderze public_html
+To launch webpack web-server
 ```
-cd public_html
-ln -s ../lic/dist dist
-```
-Projekt będzie dostępny pod adresem www.[nazwa hosta].pl/[opcjonalna nazwa użytkownika]/dist
-
-Alternatywne rozwiązanie na wypadek problemów z dowiązaniami symbolicznymi na serwerze:
-
-Przenieś folder dist z folderu lic do katalogu domowego
-```
-mv ./lic/dist .
+npm run start-dev
 ```
 
-Zmień nazwę na public_html/
+To bundle and minify for production
 ```
-mv ./dist ./public_html
+npm run build
 ```
 
-Projekt będzie dostępny pod adresem www.[nazwa hosta].pl/[opcjonalna nazwa użytkownika]/
+###Production
 
+All files for distribution are bundled and minified in dist/ folder.

@@ -5,7 +5,7 @@ let quiz = [];
 
 document.addEventListener('DOMContentLoaded', () => {
 	
-    function animateValue(cl, start, end, duration) {
+	function animateValue(cl, start, end, duration) {
 		let current = start;
 		const range = end - start;
 		const stepTime = Math.abs(Math.floor(duration / range));
@@ -46,8 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
     
 	function submitAnswerEvent(){
-		const btn = document.querySelector('.jsNext');
-		btn.addEventListener('click', checkAnswer);
+		nextBtn.addEventListener('click', checkAnswer);
 	}
     
 	function showQuestion(){
@@ -98,6 +97,9 @@ document.addEventListener('DOMContentLoaded', () => {
 		play();
 	}
 
-	start();
+	const nextBtn = document.querySelector('.jsNext');
+	if(nextBtn !== null){
+		start();   
+	}
     
 });

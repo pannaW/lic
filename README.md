@@ -4,9 +4,11 @@ english version: How to climb Mont Blanc - a beginner's guide to mountaineering
 ## Author
 Wiktoria Łucarz
 
-## Installation 
+## Demo
 
-### Developement
+
+
+## Developement
 
 Install modules
 ```
@@ -23,6 +25,6 @@ To bundle and minify for production
 npm run build
 ```
 
-### Production
+## Production
 
 All files for distribution are bundled and minified in dist/ folder.

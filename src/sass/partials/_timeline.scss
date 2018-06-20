@@ -1,17 +1,14 @@
-.timeline {
-    h3 {padding:0;}
-}
-
 .timeline__row {
-
+    &:first-child{
+        margin-top:3px;
+    }
     margin:20px;
-    
     align-items: stretch;
     display: flex;
 }
 
 .timeline__year {
-    flex:1;
+    flex:0.5;
     
     text-align: right;
     
@@ -24,9 +21,7 @@
 }
 
 .timeline__dotline {
-
-    flex:1;
-    
+    flex:0.75;    
     height:inherit;
     width:70px;
 
@@ -55,7 +50,7 @@
 
 
 .timeline__description {
-    flex:5;
+    flex:5.75;
     
     width: calc(100% - 140px);
     
@@ -70,18 +65,24 @@
 }
 
 .timeline__header {
-    position:relative;
+    @extend .t3;
     padding:0;
+    width:100%;
+    text-align: left;
+    position:relative;
+    
+    font-weight: 600;
+    font-family: 'Lato';
 }
 
 .jsSlide {
-    cursor:pointer;
     &:hover {
         color:$color__grey--middle;   
     }
 }
 
 .timeline__icon{
+    display:none;
     position:absolute;
     right:0;
     color:$color__grey--light;
@@ -91,6 +92,9 @@
         display: none; 
         font-family: "Font Awesome 5 Solid"; 
         content: "\f107";
+    }
+    &--visible{
+        display:inline;
     }
 }
 

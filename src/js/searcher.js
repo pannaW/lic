@@ -1,5 +1,5 @@
 'use strict';
-import articles from '../../dist/data/articles.json';
+import articles from '../data/articles.json';
 import { Search } from './Search';
 
 document.addEventListener('DOMContentLoaded', () => {

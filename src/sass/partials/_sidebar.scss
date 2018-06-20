@@ -170,14 +170,15 @@
             line-height: 1.65;
         }
         & a {
-            &:hover, &:active{
+            &:hover, &:active {
                 color:$color__grey--middle;
             }
             &:focus{
-                transition: none;
-                padding:2px;
                 @extend .site__skiplink;
-            }   
+                background-color: $color__primary;
+                color:#fff !important;
+                padding:4px;
+            }
             &:visited {
                 color:darken($color__primary,10%);
             }
@@ -190,12 +191,10 @@
     }
 }
 
-.active, .active:visited {
-    @extend a:hover;    
-    &:focus{
-        background-color:$color__grey--middle;
-        color:#fff;
-    }
+.active:focus {
+     @extend .site__skiplink;
+     padding:4px;
+     background-color:$color__grey--middle !important;
 }
 
 /* FOOTER */
@@ -224,7 +223,14 @@
     float:left;
     width:65%;
     @include clearfix;
+    a:focus {
+        background-color: $color__primary;
+        color:#fff;
+        padding:2px;
+    }
 }
 
 
-.button--sidebar {font-size: 1.1em; padding:8px 18px;}
+.button--sidebar {
+    font-size: 1.1em; padding:8px 18px;
+}

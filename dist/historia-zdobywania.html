@@ -9,7 +9,7 @@
     <link rel="icon" href="images/favicon.png" type="image/png">
     <meta name="description" content="Dowiedz się jakie umiejętności i sprzęt potrzebny jest, aby wejść na Mont Blanc. W przewodniku znajdziesz wiele informacji, zarówno teoretycznych, jak i praktycznych, o szczycie Mont Blanc.">
 
-    
+
     <!--    FontAwesome-->
     <script>
         FontAwesomeConfig = {
@@ -17,13 +17,13 @@
         };
     </script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-    
+
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,900" rel="stylesheet">
-    
-     <!-- Custom styles-->
+
+    <!-- Custom styles-->
     <link rel="stylesheet" href="css/styles.css">
-    
+
 </head>
 
 <body class="site">
@@ -106,7 +106,7 @@
 
                             <p class="footer__text">
 
-                                Copyright <time datetime="2018">2018</time> © <a href="mailto:wiktoria.lucarz326@gmail.com"> Wiktoria Łucarz  </a> | dr&nbsp;Piotr Śliwiński 
+                                Copyright <time datetime="2018">2018</time> © <a href="mailto:wiktoria.lucarz326@gmail.com"> Wiktoria Łucarz  </a> | dr&nbsp;Piotr Śliwiński
 
                             </p>
 
@@ -159,7 +159,7 @@
 
                             <div class="timeline">
 
-                                <div class="timeline__row">
+                                <div class="timeline__row jsOpened">
                                     <div class="timeline__year">
                                         <h2>1741</h2>
                                     </div>
@@ -173,14 +173,14 @@
                                         <h2 class="timeline__year"> 1741</h2>
 
 
-                                        <h3 class="timeline__header jsSlide" >Odkrycie lodowców masywu Mont Blanc
+                                        <button class="timeline__header jsSlide" aria-expanded="true" aria-controls="text-1">Odkrycie lodowców masywu Mont Blanc
 
                                             <span class="timeline__icon"></span>
-                                        </h3>
+                                        </button>
 
 
 
-                                        <div class="timeline__text">
+                                        <div id="text-1" class="timeline__text">
                                             <p>
                                                 21 czerwca 1741 roku grupa młodych angielskich dżentelmenów (William Windham, Richard Pococke, Robert Price, Benjamin Stillingfleet, hrabia Haddington i&nbsp;jego brat sir Baillie) przybyła do doliny Chamonix z&nbsp;zamiarem eksploracji lodowca Mer&nbsp;de&nbsp;Glace, leżącego na&nbsp;północnych zboczach masywu Mont Blanc.
                                             </p>
@@ -220,7 +220,7 @@
                                 </div>
                                 <!-- .timeline__row -->
 
-                                <div class="timeline__row">
+                                <div class="timeline__row jsOpened">
                                     <div class="timeline__year">
                                         <h2>1786</h2>
                                     </div>
@@ -233,14 +233,14 @@
                                     <div class="timeline__description">
                                         <h2 class="timeline__year"> 1786</h2>
 
-                                        <h3 class="timeline__header jsSlide" >Zdobycie szczytu Mont Blanc
+                                        <button class="timeline__header jsSlide" aria-expanded="true" aria-controls="text-2">Zdobycie szczytu Mont Blanc
 
                                             <span class="timeline__icon"></span>
 
-                                        </h3>
+                                        </button>
 
 
-                                        <div class="timeline__text">
+                                        <div id="text-2" class="timeline__text">
                                             <p>
                                                 8 sierpnia 1786 Jacques Balmat i&nbsp;Michel-Gabriel Paccard jako pierwsi w&nbsp;historii zdobyli szczyt Mont Blanc.
                                             </p>
@@ -279,7 +279,7 @@
                                 </div>
                                 <!-- .timeline__row -->
 
-                                <div class="timeline__row">
+                                <div class="timeline__row jsOpened">
                                     <div class="timeline__year">
                                         <h2>1808 &amp; 1838</h2>
                                     </div>
@@ -292,13 +292,13 @@
                                     <div class="timeline__description">
                                         <h2 class="timeline__year">1808 i 1838</h2>
 
-                                        <h3 class="timeline__header jsSlide" >Pierwsze kobiece wejścia na&nbsp;szczyt
+                                        <button class="timeline__header jsSlide" aria-expanded="true" aria-controls="text-3">Pierwsze kobiece wejścia na&nbsp;szczyt
 
                                             <span class="timeline__icon"></span>
 
-                                        </h3>
+                                        </button>
 
-                                        <div class="timeline__text">
+                                        <div id="text-3" class="timeline__text">
 
                                             <h4> Marie Paradis </h4>
 
@@ -343,7 +343,7 @@
                                 </div>
                                 <!-- .timeline__row -->
 
-                                <div class="timeline__row">
+                                <div class="timeline__row jsOpened">
                                     <div class="timeline__year">
                                         <h2>1818</h2>
                                     </div>
@@ -355,13 +355,13 @@
                                     <!-- .timeline__dotline -->
                                     <div class="timeline__description">
                                         <h2 class="timeline__year">1818</h2>
-                                        <h3 class="timeline__header jsSlide" >Pierwsze polskie wejście
+                                        <button class="timeline__header jsSlide" aria-expanded="true" aria-controls="text-4">Pierwsze polskie wejście
 
                                             <span class="timeline__icon"></span>
 
-                                        </h3>
+                                        </button>
 
-                                        <div class="timeline__text">
+                                        <div id="text-4" class="timeline__text">
 
                                             <p>
                                                 Pierwszym Polakiem, który postawił swoją stopę na&nbsp;Dachu Europy był poeta Antoni Malczewski.
@@ -439,7 +439,6 @@
         <!-- .modal__content -->
     </div>
     <!-- .modal -->
-     <script src="./guide.bundle.js"></script>
-
+    <script src="./guide.bundle.js"></script>
 </body>
 </html>

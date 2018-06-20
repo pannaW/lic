@@ -1,6 +1,6 @@
 import { Quiz } from './Quiz';
-import questions from '../../dist/data/questions.json';
-import messages from '../../dist/data/messages.json';
+import questions from '../data/questions.json';
+import messages from '../data/messages.json';
 let quiz = [];
 
 document.addEventListener('DOMContentLoaded', () => {

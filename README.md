@@ -1,10 +1,39 @@
-# Jak zdobyć Mont Blanc - przewodnik początkującego alpinisty
-english: How to reach the Mont Blanc top - guide for beginners
+# Jak bezpiecznie zdobyć Mont Blanc - interaktywny przewodnik początkującego alpinisty
+english version: How to safely climb Mont Blanc - a beginner's guide to mountaineering
 
-Bachelor project aiming for enhancing awarness of tourist in Mont Blanc area focused on accessibility and usability.
+## Autor
+Wiktoria Łucarz, pod kierunkiem dr. Piotra Śliwińskiego
 
-## Author
-Wiktoria Łucarz
+## Instalacja na serwerze
 
-## Copyright
-All rights reserved
+Rozpakuj pliki na serwerze
+```
+unzip lic.zip
+```
+
+Stwórz folder public_html, jeśli nie istnieje
+```
+mkdir public_html
+```
+
+Stwórz dowiązanie symboliczne do folderu dist w folderze public_html
+```
+cd public_html
+ln -s ../lic/dist dist
+```
+Projekt będzie dostępny pod adresem www.[nazwa hosta].pl/[opcjonalna nazwa użytkownika]/dist
+
+Alternatywne rozwiązanie na wypadek problemów z dowiązaniami symbolicznymi na serwerze:
+
+Przenieś folder dist z folderu lic do katalogu domowego
+```
+mv ./lic/dist .
+```
+
+Zmień nazwę na public_html/
+```
+mv ./dist ./public_html
+```
+
+Projekt będzie dostępny pod adresem www.[nazwa hosta].pl/[opcjonalna nazwa użytkownika]/
+

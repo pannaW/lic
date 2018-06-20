@@ -24,7 +24,10 @@ h5, h6 { @extend .s1;}
 
 b {font-weight: 600;
     word-break: normal;}
-i {font-style: italic;}
+i {
+    font-style: italic;
+    font-weight: 600;
+}
 a {color: $color__primary--dark;}
 a:hover{ color:darken($color__primary,8);}
 abbr { cursor: help;}
@@ -49,12 +52,16 @@ ol li {
     .site__body, .search__input { background-color:$color__blue--dark; color:#fff;}
     .site__sidebar { background-color:lighten($color__blue--dark,1); }
     .quiz__answer label:hover {color:#fff;}
-    .site__main, .site__sidebar, .quiz__answer, .result { 
+    .site__main, .site__sidebar, .quiz__answer, .result {
         color: $color__white--greish;         
         .header__title, .header__subtitle { color:#fff;}
         .footer__text,.footer__btn { color: #fff;}
-        .active {color:$color__grey--light};
-        a { color:$color__primary;}
+        .active {
+            color:$color__grey--light;
+            &:hover {
+                color:#fff;    
+            }
+        };
         .message__body,.article table {color:$color__grey--dark; }
         .message--warning a { 
             color:indianred;
@@ -63,12 +70,13 @@ ol li {
             }
         }
     }
+    .button:hover, .button a {color:#fff;}
     .btn{
         &:hover, &--menu:hover, &--on {
             background-color:darken($color__blue--dark,1);   
         }
     }
-    .button:hover {color:#fff;}
+    
 }
 
 .big-font { font-size: 17px; }

@@ -1,12 +1,12 @@
-# Jak bezpiecznie zdobyć Mont Blanc - interaktywny przewodnik początkującego alpinisty
-english version: How to safely climb Mont Blanc - a beginner's guide to mountaineering
+# Zdobyć Mont Blanc - przewodnik początkującego alpinisty
+english version: How to climb Mont Blanc - a beginner's guide to mountaineering
 
 ## Autor
 Wiktoria Łucarz
 
-##Installation 
+## Installation 
 
-###Developement
+### Developement
 
 Install modules
 ```
